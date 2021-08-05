@@ -7,14 +7,13 @@
   <link rel="stylesheet" href="style.css">
   <title>Calculator</title>
 </head>
-<body>
-  
+<body class="body">
+
   <div class="calculator">
     <input type="text" id="screen">
-
     <div class="btn-container">
       <span class="btn operator">C</span>
-      <span class="btn operator">del</span>
+      <span class="btn operator"><</span>
       <span class="btn operator">.</span>
       <span class="btn operator">/</span>
       <span class="btn">7</span>
@@ -30,8 +29,11 @@
       <span class="btn">3</span>
       <span class="btn operator">+</span>
       <span class="btn" id="zero">0</span>
-      <span class="btn" id="equals">=</span>
+      <span class="btn" id="equal">=</span>
     </div>
+  </div>
+  <div id="mode-btn">
+    <button id="btn">MODE</button>
   </div>
   
   <script src="script.js"></script>
